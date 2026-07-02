@@ -15,9 +15,9 @@ def menu_principal():
         print(" SYS-EVENTS: GESTIÓN DE EVENTOS E INVITADOS ")
         print("="*45)
         print("1. Listado general de eventos")
-        print("2. Buscar invitados (Filtro dinámico / Regex)")
-        print("3. Validar acceso a evento (Subdocumentos)")
-        print("4. Top 3 eventos más populares (Agregación)")
+        print("2. Buscar invitados por nombre o correo")
+        print("3. Validar acceso a evento")
+        print("4. Top 3 eventos más populares")
         print("5. Salir")
         print("="*45)
         
@@ -35,7 +35,7 @@ def menu_principal():
             print("\nCerrando el sistema. ¡Éxito en tu evaluación!")
             break
         else:
-            print("\n❌ Opción inválida. Intenta del 1 al 5.")
+            print("\n Opción inválida. Intenta del 1 al 5.")
 
 if __name__ == "__main__":
     menu_principal()
