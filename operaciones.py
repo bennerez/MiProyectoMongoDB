@@ -64,9 +64,8 @@ def buscar_invitados_regex(db):
 
 
 def validar_acceso_evento(db):
-    """Cubre 3.1.3.I.6 y 3.1.4.I.8: Búsqueda en subdocumentos cruzando colecciones con $lookup."""
     print("\n" + "="*40)
-    print("        VALIDACIÓN DE ACCESO ($lookup)")
+    print("        VALIDACIÓN DE ACCESO A EVENTO")
     print("="*40)
     
     while True:

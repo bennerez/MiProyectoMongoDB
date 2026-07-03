@@ -12,7 +12,7 @@ def menu_principal():
     # 2. Mostramos el menú iterativo
     while True:
         print("\n" + "="*45)
-        print(" SYS-EVENTS: GESTIÓN DE EVENTOS E INVITADOS ")
+        print(" GESTIÓN DE EVENTOS E INVITADOS ")
         print("="*45)
         print("1. Listado general de eventos")
         print("2. Buscar invitados por nombre o correo")
